@@ -1,0 +1,1174 @@
+/* Import des polices */
+@font-face {
+    font-family: "LeckerliOneRegular";
+    src: url("../fonts/LeckerliOne-Regular.ttf");
+}
+@font-face {
+    font-family: "RobotoLight";
+    src: url("../fonts/Roboto-Light.ttf");
+}
+@font-face {
+    font-family: "RobotoThin";
+    src: url("../fonts/Roboto-Thin.ttf");
+}
+
+/* Couleurs CSS */
+:root {
+    --main-color: black;
+    --bg-color: white;
+}
+
+/* Couleur du surlignage souris */
+::selection { background-color: var(--main-color); color: var(--bg-color); }
+::-moz-selection { background-color: var(--main-color); color: var(--bg-color); }
+
+
+/* ---------------------------------------------------- */
+/* ------------------   Commons   --------------------- */
+/* ____________________________________________________ */
+
+/* Suppression de la barre de défilement */
+html {
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+body {
+    height: 100vh;
+    color: var(--main-color);
+    font-family: "RobotoLight", sans-serif;
+}
+a:link {
+    text-decoration: none;
+}
+.screen {
+    min-height: 100vh;
+}
+.underline {
+    background-color: var(--main-color); 
+    color: var(--bg-color);
+}
+.SX-title {
+    position: relative;
+    padding-top: 70px;
+    font-size: 2.5rem;
+    font-family: "LeckerliOneRegular";
+    z-index: 999;
+}
+.SX-subtitle {
+    padding-top: 10px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: "RobotoThin", sans-serif;
+    line-height: 1.7rem;
+    z-index: 9999;
+}
+.SX-moustache {
+    width: 50px;
+    position: absolute;
+    bottom: 60px;
+    z-index: -10;
+}
+
+/* SCREEN 1 */
+.S1-title {
+    position: relative;
+    padding-top: 100px;
+    font-size: 4.7rem;
+    font-family: "LeckerliOneRegular";
+}
+.S1-moustache {
+    position: absolute;
+    width: 60px;
+    bottom: 100px;
+}
+.S1-subtitle {
+    padding-top: 22px;
+    font-size: 1.7rem;
+    font-weight: 500;
+    font-family: "RobotoThin", sans-serif;
+}
+.S1-tuto {
+    padding-top: 135px;
+    padding-bottom: 80px;
+    font-size: 3rem;
+    font-family: "RobotoThin", sans-serif;
+    line-height: 3.5rem;
+    font-weight: 500;
+}
+
+/* SCREEN 2 */
+.S2-title {
+    font-size: 2.5rem;
+    padding-top: 45px;
+    margin-left: 10vw;
+}
+.S2-moustache {
+    bottom: 52px;
+}
+.S2-subtitle {
+    font-size: 1.4rem;
+    padding-top: 5px;
+    margin-left: 10vw;
+}
+.S2-cat {
+    width: 60vw;
+    min-width: 300px;
+    position: absolute;
+    bottom: 20px;
+    left: 10vw;
+    z-index: -999;
+}
+.S2-catTail {
+    width: 28vw;
+    min-width: 120px;
+    position: absolute;
+    bottom: 30px;
+    left: 46vw;
+}
+#rrr, #rrr2, .rrrOne2, .rrrTwo2, .rrrThree2 {
+    display: none;
+}
+.rrrOne, .rrrTwo, .rrrThree {
+    position: absolute;
+    width: 7vw;
+}
+.rrrAnimationOne {
+    animation: 1s infinite alternate ease;
+}
+.rrrAnimationTwo {
+    animation: 1.5s infinite alternate ease;
+}
+.rrrAnimationThree {
+    animation: 1.2s infinite alternate ease;
+}
+.rrrOne {
+    transform: rotate(-25deg);
+    left: 10vw;
+    bottom: 62vh;
+}
+.rrrTwo {
+    left: 17vw;
+    bottom: 75vh;
+}
+.rrrThree {
+    transform: rotate(-15deg);
+    left: 19vw;
+    bottom: 60vh;
+}
+
+/* SCREEN 3*/
+.S3-cat {
+    width: 60vw;
+    position: absolute;
+    bottom: 30px;
+    left: 10vw;
+}
+.S3-catTail {
+    width: 14vw;
+    position: absolute;
+    bottom: 10vw;
+    left: 67vw;
+}
+
+/* SCREEN 5 */
+.S5-moustache {
+    transform: rotate(270deg);
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.S5-cat {
+    position: relative;
+    z-index: -10;
+    height: 100vh;
+    top: -320px;
+    left: -10px;
+}
+#S5-after {
+    width: 500px !important;
+    position: relative;
+    top: -720px;
+    left: 62vw;
+}
+.S5-afterSubtitle {
+    padding-top: 0;
+}
+.S5-img {
+    position: relative;
+}
+.S5-eclairs {
+    position: absolute;
+}
+.S5-eclair1 {
+    width: 4%;
+    top: -280px;
+    left: 37vh;
+}
+.S5-eclair2 {
+    width: 6%;
+    top: -250px;
+    left: 20vh;
+}
+.S5-pfff {
+    position: absolute;
+    width: 10%;
+    top: 35vh;
+    left: 8vw;
+}
+
+/* SCREEN 6 */
+.S6-img {
+    position: relative;
+}
+.S6-cat {
+    position: absolute;
+    width: 50vw;
+    z-index: -999;
+    top: -7vw;
+    left: 13vw;
+}
+#S6-catTail {
+    width: 5vw;
+    top: 29vw;
+    left: 18.5%;
+}
+#S6-after {
+    width: 500px !important;
+    position: relative;
+    top: 300px;
+    left: 60vw;
+    display: none;
+}
+
+/* SCREEN 7 */
+.S7-rightMoustache, .S7-leftMoustache {
+    width: 50px;
+}
+.S7-leftMoustache {
+    transform: rotateY(180deg);
+}
+#S7-triangle {
+    height: 0;
+    width: 0;
+    border-top: 9px solid var(--main-color);
+    border-right: 5px solid transparent;
+    border-left: 5px solid transparent;
+    margin: 10px 15px;
+}
+.S7-ornement {
+    padding: 40px 0 20px 0;
+}
+.S7-title {
+    padding-top: 0;
+}
+.S7-text {
+    margin: auto;
+    width: 500px;
+}
+.S7-team img {
+    width: 250px;
+}
+.S7-team p {
+    color: var(--main-color);
+}
+.S7-more h2 {
+    font-size: 23px;
+    color: var(--main-color);
+    margin-bottom: 0;
+}
+.S7-more h3 {
+    font-size: 18px;
+    padding-top: 0;
+    color: var(--main-color);
+}
+section {
+    min-height: 70vh;
+}
+footer {
+    background-color: var(--main-color);
+    width: 100%;
+}
+.S7-textFooter {
+    color: var(--bg-color);
+    font-family: "RobotoThin", sans-serif;
+}
+.S7-imgShare a img {
+    width: 50px;
+}
+.S7-imgShare a p {
+    margin-top: 5px;
+    font-size: 0.5rem;
+    color: var(--bg-color);
+    font-family: "RobotoThin", sans-serif;
+}
+.S7-imgShare {
+    width: 300px;
+}
+.S7-spanText {
+    font-size: 1.3rem;
+    font-family: "LeckerliOneRegular", serif;
+}
+.S7_logoFlores a img {
+    width: 150px;
+}
+.S7-contact a img {
+    width: 50px;
+}
+.S7-mentions p {
+    font-family: "RobotoThin", sans-serif;
+    font-size: 0.65rem;
+    color: var(--bg-color);
+    margin-bottom: 0;
+}
+.S7-mentions p a {
+    font-family: "LeckerliOneRegular", serif;
+    color: var(--bg-color);
+}
+.row {
+    margin-left: 0;
+}
+.S7-leftFooter, .S7-rightFooter, .S7-centerFooter {
+    padding-bottom: -16vh;
+    background-color: var(--main-color);
+}
+.S7-mentions {
+    height: 20%;
+    background-color: var(--main-color);
+}
+
+/* POPUP */
+.popup {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    transform: scale(1.1);
+    transition: visibility 0s linear 0.25s, opacity 0.25s 0s, transform 0.25s;
+}
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(17, 19, 27, 0.85);
+    color: var(--bg-color);
+    padding: 1rem 1.5rem;
+    height: 70vh;
+}
+.close-button-popup {
+    cursor: pointer;
+}
+.show-popup {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+.close {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    transform: rotateX(30deg);
+}
+.close::before, .close::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    margin-top: -1px;
+    background: var(--bg-color);
+}
+.close::before {
+    transform: rotate(45deg);
+}
+.close::after {
+    transform: rotate(-45deg);
+}
+.close.hairline::before, .close.hairline::after {
+    height: 1px;
+}
+#popupTitle {
+    font-family: "LeckerliOneRegular", serif;
+    font-size: 2.5rem;
+}
+#popupContent {
+    font-family: "RobotoThin", sans-serif;
+    font-size: 1.3rem;
+    height: 100%;
+}
+.popupDivContent {
+    height: 50vh;
+}
+
+/* ---------------------------------------------------- */
+/* --------------------   SVG   ----------------------- */
+/* ____________________________________________________ */
+
+/* Commons */
+.range {
+    white-space: nowrap;
+    position: relative;
+    padding: 60px;
+}
+svg {
+    overflow: visible;
+}
+.path {
+    stroke: var(--main-color);
+    stroke-dasharray: 8,7;
+    stroke-width: 1.9;
+    stroke-linecap: round;
+    fill: transparent;
+}
+.realPath {
+    stroke-opacity: 0;
+}
+.target {
+    animation: 1s infinite 0.5s alternate ease;
+    fill: var(--bg-color);
+    stroke: var(--main-color);
+    stroke-width: 0.8px;
+}
+#S2-path, #S3-path, #S4-path {
+    fill: transparent;  
+}
+
+/* S1 */
+#S1-action {
+    width: 3rem;
+    position: relative;
+    left: 20px;
+    bottom: 40px;
+    margin-right: -20px;
+    visibility: hidden;
+}
+.S1-range {
+    padding: 50px;
+    white-space: nowrap;
+    position: relative;
+}
+
+/* S2 */
+#S2-action {
+    width: 3rem;
+    position: relative;
+    top: 15vw;
+    left: 21vw;
+    visibility: hidden;
+}
+.S2-svg {
+    position: absolute;
+    top: -5vw;
+    left: 35vw;
+}
+
+/* S3 */
+.S3-svg {
+    position: absolute;
+    top: -1vw;
+    left: 32vw;
+}
+#S3-action {
+    width: 3rem;
+    position: relative;
+    top: 9vw;
+    left: 9vw;
+    visibility: hidden;
+}
+
+/* S5 / S6 */
+.S5-range, .S6-range {
+    white-space: nowrap;
+    position: relative;
+    padding-top: 50px;
+}
+#S5-action, #S6-action  {
+    width: 3rem;
+    position: relative;
+    top: -1vw;
+    left: 1vw;
+}
+#S5-action {
+    visibility: hidden;
+}
+#S6-action {
+    visibility: hidden;
+}
+
+/* Ball S6 */
+.ball {
+    position: absolute; 
+    top: 50%; 
+    left: 50%;
+}
+.S6-transitionFade {
+    transition: all 0.3s;
+}
+#forground {
+    top: 85%; 
+    left: 15%;
+}
+
+
+/* ---------------------------------------------------- */
+/* ----------------   Animations   -------------------- */
+/* ____________________________________________________ */
+
+.S1-circle, .S2-circle, .S3-circle, .S4-circle, .S5-circle, .S6-circle {
+    animation: 1s infinite alternate ease;
+}
+.textAnimation {
+    animation-name: fadeIn, slideInUp;
+}
+
+.targetAnimation, .circleAnimation {
+    animation-name: fadeIn;
+}
+.rrrAnimation {
+    animation-name: fadeIn, pulse;
+}
+
+@keyframes anim-catTail {
+    from {
+        -webkit-transform-origin: right;
+        transform-origin: right;
+    }
+    to {
+        -webkit-transform-origin: right;
+        transform-origin: right;
+        -webkit-transform: rotate3d(0, 0, 1, 10deg);
+        transform: rotate3d(0, 0, 1, 10deg);
+    }
+}
+.S2-animCatTail {
+    animation: anim-catTail 2s infinite alternate ease;
+}
+
+/* SCREEN 3 */
+@keyframes anim-catTail2 {
+    from {
+        -webkit-transform-origin: bottom;
+        transform-origin: bottom;
+    }
+    to {
+        -webkit-transform-origin: bottom;
+        transform-origin: bottom;
+        -webkit-transform: rotate3d(0, 0, 1, 10deg);
+        transform: rotate3d(0, 0, 1, 10deg);
+    }
+}
+.S3-animCatTail {
+    animation: anim-catTail2 2s infinite alternate ease;
+}
+
+/* SCREEN 6 */
+.ballAnimation {
+    animation: fadeIn 1s infinite alternate ease;
+}
+
+/* SCREEN 7 */
+.S7-anim-text1 {
+    animation-delay: 2s;
+}
+.S7-anim-text2 {
+    animation-delay: 4s;
+}
+.S7-anim-text3 {
+    animation-delay: 6s;
+}
+.S7-anim-text4 {
+    animation-delay: 8s;
+}
+.S7-anim-text4 {
+    animation-delay: 8s;
+}
+.S7-anim-text5 {
+    animation-delay: 10s;
+}
+.S7-lastDelay {
+    animation-delay: 12s;
+}
+.grow * { 
+    transition: all .2s ease-in-out; 
+}
+.grow:hover img, .grow:hover h2 { 
+    transform: scale(1.1); 
+}
+
+/* ---------------------------------------------------- */
+/* ----------------   Responsive   -------------------- */
+/* ____________________________________________________ */
+
+
+/* -----------------  4K Screen   --------------------- */
+@media (min-width: 2560px) {
+    /* SCREEN 2 */
+    .S2-svg {
+        top: -2vw;
+        left: 40vw;
+    }
+    #S2-action {
+        top: 23vw;
+        left: 17vw;
+    }
+
+    /* SCREEN 3 */
+    .S3-svg {
+        top: 2vw;
+        left: 36vw;
+    }
+    #S3-action {
+        top: 20vw;
+        left: 7vw;
+    }
+
+    /* SCREEN 5 */
+    #S5-after {
+        top: -950px;
+        left: 67vw;
+    }
+    .S5-title, .S5-subtitle {
+        position: relative;
+        top: 100px;
+    }
+    .S5-eclair1 {
+        top: -270px;
+        left: 27vh;
+    }
+    .S5-eclair2 {
+        top: -240px;
+        left: 10vh;
+    }
+    .S5-pfff {
+        top: 47vh;
+        left: 7vw;
+    }
+
+    /* SCREEN 6 */
+    .S6-cat { 
+        top: 1vw;
+        left: 13vw;
+    }
+    #S6-after {
+        top: 600px;
+        left: 67vw;
+    }
+}
+
+
+/* ----------------   Ecran medium (md)   --------------- */
+@media (min-width: 1024px) and (max-width: 1919px) {
+    /* Commons */
+    .SX-title {
+        font-size: 2rem;
+    }
+    .SX-subtitle {
+        font-size: 1.3rem;
+    }
+
+    /* SCREEN 2 */
+    .S2-svg {
+        top: -3vw;
+        left: 28vw;
+    }
+    #S2-action {
+        top: 25vw;
+        left: 385px;
+    }
+
+    /* SCREEN 3 */
+    .S3-svg {
+        top: 0vw;
+        left: 28vw;
+    }
+    #S3-action {
+        top: 13vw;
+        left: 230px;
+    }
+
+    /* SCREEN 5 */
+    .S5-eclair1 {
+        top: -275px;
+        left: 17vh;
+    }
+    .S5-eclair2 {
+        top: -280px;
+        left: 4vh;
+    }
+    .S5-pfff {
+        width: 150px;
+        top: 33vh;
+        left: 7vw;
+    }
+    #S5-after {
+        width: 400px !important;
+        top: -680px;
+        left: 62vw;
+    }
+ 
+    /* SCREEN 6 */
+    .S6-cat { 
+        width: 50vw;
+        top: -10vw;
+        left: 15vw;
+    }
+    #S6-catTail {
+        top: 30vw;
+        left: 21vw;
+        width: 5vw;
+    }
+    #forground {
+        width: 100px;
+    }
+    #S6-after {
+        width: 400px !important;
+        top: 250px;
+        left: 60vw;
+    }
+
+    /* SCREEN 7 */
+    .S7-ornement {
+        padding: 10px 0 10px 0;
+    }
+}
+
+/* LANDSCAPE Tablette et smartphone */
+@media (max-width: 1024px) and (orientation: landscape) {
+    /* SCREEN 7 */
+    section {
+        min-height: auto;
+    }
+}
+
+/* ----------------   Small (sm)   ----------------- */
+@media (min-width: 577px) and (max-width: 768px) {
+    /* Popup */
+    .popup-content {
+        height: 100vh;
+        width: 100%;
+    }
+
+    /* SCREEN 1*/
+    .S1-title {
+        padding-top: 100px;
+        font-size: 4rem;
+    }
+    .S1-tuto {
+        padding-top: 130px;
+        padding-bottom: 80px;
+    }
+    .range {
+        padding: 130px;
+    }
+    #S1-action {
+        width: 3rem;
+        left: 15px;
+        bottom: 40px;
+        margin-right: -15px;
+    }
+
+    /* SCREEN 2 */
+    .S2-title {
+        font-size: 2.5rem;
+        padding-top: 80px;
+        margin-left: 0;
+    }
+    .S2-subtitle {
+        font-size: 1.5rem;
+        margin-left: 0;
+    }
+    .S2-cat {
+        width: 85vw;
+        bottom: 13vw;
+        left: 7vw;
+    }
+    .S2-catTail {
+        width: 40vw;
+        bottom: 15vw;
+        left: 58vw;
+    }
+    .rrrOne, .rrrTwo, .rrrThree {
+        width: 15vw;
+    }
+    .rrrOne {
+        left: 8vw;
+        bottom: 60vh;
+    }
+    .rrrTwo {
+        left: 40vw;
+        bottom: 63vh;
+    }
+    .rrrThree {
+        left: 70vw;
+        bottom: 60vh;
+    }
+    .S2-svg {
+        top: 3vw;
+        left: 5vw;
+    }
+    #S2-action {
+        top: 53vw;
+        left: 340px;
+    }
+    
+    /* SCREEN 3 */
+    .S3-cat {
+        width: 80vw;
+        bottom: 3vw;
+        left: 3vw;
+    }
+    .S3-catTail {
+        width: 20vw;
+        bottom: 12vw;
+        left: 78vw;
+    }
+    .S3-svg {
+        top: 18vw;
+        left: 15vw;
+    }
+    #S3-action {
+        top: 50vw;
+        left: 235px;
+    }
+
+    /* SCREEN 5 */
+    .S5-cat {
+        max-width: initial !important;
+        width: 1100px;
+        top: -450px;
+        left: 0px;
+    }
+    .S5-title, .S5-subtitle {
+        margin-left: 350px;
+    }
+    #S5-after {
+        top: -600px;
+        left: 130px;
+    }
+    .S5-eclair1 {
+        width: 50px;
+        top: -275px;
+        left: 20vh;
+    }
+    .S5-eclair2 {
+        width: 65px;
+        top: -270px;
+        left: 7vh;
+    }
+    .S5-pfff {
+        width: 150px;
+        top: 20vh;
+        left: 7vw;
+    }
+    #S5-action {
+        top: -4vw;
+    }
+
+    /* SCREEN 6 */
+    .S6-cat {
+        width: 500px;
+        top: 3vw;
+        left: 24vw;
+    }
+    #S6-catTail {
+        width: 50px;
+        top: 50%;
+        left: 32%;
+    }
+    #forground {
+        width: 80px;
+        top: 60%;
+    }
+    #S6-after {
+        top: 55vw;
+        left: 20vw;
+    }
+    #S6-action {
+        top: -3vh;
+    }
+
+    /* SCREEN 7 */
+    .S7-leftFooter, .S7-rightFooter, .S7-centerFooter {
+        padding-top: 15vh;
+        height: 20%;
+    }
+}
+
+/* --------------------   Extra small (xs)   ------------------- */
+@media (max-width: 576px) {
+    /* Commons */
+    .SX-title {
+        font-size: 2rem;
+        padding-top: 50px;
+        margin-left: 0vw;
+    }
+    .SX-subtitle {
+        font-size: 1.2rem;
+        padding-top: 10px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .SX-moustache {
+        width: 30px;
+        bottom: 45px;
+    }
+
+    /* Popup */
+    .popup-content {
+        height: 100vh;
+        width: 100%;
+    }
+
+    /* SCREEN 1*/
+    .S1-title {
+        padding-top: 50px;
+        font-size: 2rem;
+    }
+    .S1-moustache {
+        width: 30px;
+        bottom: 45px;
+    }
+    .S1-subtitle {
+        padding-top: 10px;
+        font-size: 1.2rem;
+    }
+    .S1-tuto {
+        padding-top: 30px;
+        padding-bottom: 10px;
+        font-size: 2rem;
+    }
+    #S1-action {
+        width: 1.5rem;
+        left: 5px;
+        bottom: 10px;
+        margin-right: -5px;
+    }
+
+    /* SCREEN 2 */
+    .S2-title {
+        margin-left: 0vw;
+    }
+    .S2-subtitle {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .S2-cat {
+        bottom: 20px;
+        left: 20px;
+    }
+    .S2-catTail {
+        width: 28vw;
+        bottom: 30px;
+        left: 215px;
+    }
+    .rrrOne, .rrrTwo, .rrrThree {
+        width: 20vw;
+    }
+    .rrrOne {
+        bottom: 53vh;
+    }
+    .rrrTwo {
+        left: 40vw;
+        bottom: 58vh;
+    }
+    .rrrThree {
+        left: 70vw;
+        bottom: 50vh;
+    }
+    .S2-svg {
+        top: 45vh;
+        left: 8vw;
+        width: 300px;
+        height: auto;
+    }
+    #S2-action {
+        top: 41vh;
+        left: 140px;
+        width: 1.5rem;
+    }
+
+    /* SCREEN 3 */
+    .S3-cat {
+        width: 80vw;
+        bottom: 3vw;
+        left: 3vw;
+    }
+    .S3-catTail {
+        width: 20vw;
+        bottom: 12vw;
+        left: 78vw;
+    }
+    .S3-svg {
+        width: 400px;
+        height: auto;
+        top: 47vh;
+        left: 0vw;
+    }
+    #S3-action {
+        top: 35vh;
+        left: 140px;
+        width: 1.5rem;
+    }
+
+    /* SCREEN 5 */
+    .S5-cat {
+        max-width: initial !important;
+        width: 300px;
+        height: auto;
+        top: 10px;
+        left: 0px;
+    }
+    #S5-after {
+        width: 80vw !important;
+        top: 0px;
+        left: 35px;
+    }
+    .S5-subtitle {
+        padding-top: 0;
+    }
+    .S5-eclair1 {
+        width: 20px;
+        top: 0;
+        left: 90px;
+    }
+    .S5-eclair2 {
+        width: 27px;
+        top: 0;
+        left: 30px;
+    }
+    .S5-pfff {
+        width: 50px;
+        top: 150px;
+        left: 8vw;
+    }
+    #S5-action {
+        width: 2rem;
+        top: -4vw;
+    }
+
+    /* SCREEN 6 */
+    .S6-cat {
+        position: absolute;
+        width: 250px;
+        top: 0px;
+        left: 24vw;
+    }
+    #S6-catTail {
+        width: 25px;
+    }
+    #forground {
+        width: 50px;
+    }
+    #S6-after {
+        width: 90vw !important;
+        top: 55vw;
+        left: 5vw;
+    }
+    .S6-afterTitle {
+        font-size: 1.6rem;
+    }
+    .S6-afterSubtitle {
+        padding-top: 0 ;
+    }
+    #S6-action {
+        width: 2rem;
+        top: -3vh;
+    }
+    .S6-range {
+        left: 20px;
+        width: 270px;
+        padding-bottom: 20px;
+    }
+
+    /* SCREEN 7 */
+    section {
+        min-height: auto;
+    }
+    .S7-text {
+        width: auto;
+    }
+    .S7-title {
+        padding-top: 0;
+    }
+    .S7-leftFooter, .S7-rightFooter, .S7-centerFooter {
+        padding-top: 25vh;
+        height: 5%;
+    }
+}
+/* Adaptation pour le défilement des petits écrans */
+@media (max-height: 788px), (orientation: portrait) {
+    html {
+        overflow-y: auto;
+        overflow-x: auto;
+    }
+}
+
+/* Gestion de la patoune */
+@media (max-width: 576px) and (min-width: 369px) {
+    /* SCREEN 6 */
+    #S6-catTail {
+        top: 350px;
+        left: 32%;
+    }
+    #forground {
+        top: 410px;
+        left: 25%;
+    }
+}
+@media (max-width: 368px) and (min-width: 345px) {
+    /* SCREEN 6 */
+    #S6-catTail {
+        top: 370px;
+        left: 33%;
+    }
+    #forground {
+        top: 430px;
+        left: 22%;
+    }
+}
+@media (max-width: 344px) and (min-width: 322px) {
+    /* SCREEN 6 */
+    #S6-catTail {
+        top: 390px;
+        left: 32%;
+    }
+    #forground {
+        top: 450px;
+        left: 22%;
+    }
+}
+@media (max-width: 321px) {
+    /* SCREEN 6 */
+    #S6-catTail {
+        top: 420px;
+        left: 33%;
+    }
+    #forground {
+        top: 490px;
+        left: 22%;
+    }
+}
+/* Correction moustache S6 */
+@media (max-width: 342px) {
+    .S6-moustache {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* !!!!!!!!!!     TEST     !!!!!!!!!!!!! */
+.screen { display: none; }
+
+/* #S1 { display: none !important; }
+#S2 { display: none !important; }
+#S3 { display: none !important; }
+#S4 { display: none !important; }
+#S5 { display: none !important; }
+#S6 { display: none !important; }
+#S7 { display: none !important; } */

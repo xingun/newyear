@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 129.45 129.45"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="bouton-fleche-droite-test.svg"
+   inkscape:version="0.92.1 r15371">
+  <metadata
+     id="metadata18">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1633"
+     inkscape:window-height="718"
+     id="namedview16"
+     showgrid="false"
+     inkscape:zoom="1.8230978"
+     inkscape:cx="64.724998"
+     inkscape:cy="64.724998"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg14" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.cls-1,.cls-2{fill:none;stroke:#1d1d1b;stroke-linecap:round;stroke-width:2px;}.cls-1{stroke-miterlimit:10;}.cls-2{stroke-linejoin:round;}</style>
+  </defs>
+  <title
+     id="title6">bouton-fleche-droiteFichier 8</title>
+  <g
+     id="Calque_2"
+     data-name="Calque 2">
+    <g
+       id="Calque_2-2"
+       data-name="Calque 2">
+      <circle
+         class="cls-1"
+         cx="64.72"
+         cy="64.72"
+         r="63.72"
+         id="circle8" />
+      <polyline
+         class="cls-2"
+         points="52.53 97.89 95.39 65.82 53.94 31.07"
+         id="polyline10" />
+    </g>
+  </g>
+  <path
+     style="opacity:1;fill:#ffffff;fill-opacity:1;stroke-width:0.54851693"
+     d="M 56.442393,126.63755 C 43.437096,125.01306 30.161838,118.3566 20.514533,108.62267 12.757194,100.79567 7.082307,90.91892 4.204167,80.235604 2.8887329,75.352865 2.7593364,73.963762 2.7593364,64.724998 c 0,-9.238765 0.1293965,-10.627867 1.4448306,-15.510604 C 7.0898529,38.503065 12.789609,28.575882 20.510117,20.814553 30.099689,11.17428 42.201238,5.0085375 55.453152,3.0110696 c 6.796839,-1.0244908 11.63715,-1.0244908 18.433988,0 24.979988,3.7652464 44.75539,21.7134134 51.47139,46.7154444 1.64217,6.113429 2.03847,19.446205 0.77765,26.162938 -6.15924,32.811838 -36.487834,54.895858 -69.693787,50.748098 z M 74.806987,82.827292 c 12.073269,-9.049855 21.951401,-16.692841 21.951401,-16.984416 0,-0.723861 -42.053414,-35.948703 -42.917601,-35.948703 -0.379223,0 -0.689496,0.491027 -0.689496,1.09117 0,0.762587 5.946297,6.073915 19.74661,17.637997 10.860635,9.100756 19.74661,16.810458 19.74661,17.132673 0,0.322221 -9.132807,7.39957 -20.295127,15.727445 -11.16232,8.327875 -20.513026,15.352468 -20.779348,15.610205 -0.586267,0.56737 -0.04517,2.187902 0.730539,2.187902 0.305254,0 10.433137,-7.404424 22.506412,-16.454273 z"
+     id="path4495"
+     inkscape:connector-curvature="0" />
+</svg>
